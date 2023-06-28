@@ -339,6 +339,10 @@ nav {
   p {
     max-width: 60ch;
   }
+  p,
+  #contact a {
+    font-size: 1.4rem;
+  }
   nav {
     margin-top: 9rem;
     padding-bottom: 10rem;
