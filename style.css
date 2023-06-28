@@ -314,12 +314,6 @@ nav {
   cursor: pointer;
 }
 
-#sticky_arrow_btn:hover {
-  color: var(--hover-beige);
-  background-color: var(--medium-beige);
-  border: 1.5px solid var(--hover-beige);
-}
-
 /*---- Media Queries - Tablet ----*/
 @media screen and (min-width: 768px) {
   h1 {
@@ -583,5 +577,11 @@ nav {
   }
   .card:hover .card_inner {
     opacity: 1;
+  }
+
+  #sticky_arrow_btn:hover {
+    color: var(--hover-beige);
+    background-color: var(--medium-beige);
+    border: 1.5px solid var(--hover-beige);
   }
 }
